@@ -2,7 +2,7 @@
 """
 
 
-class ClassName:
+class team:
     def solve(self, input):
         pass
 
