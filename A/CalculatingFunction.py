@@ -4,14 +4,11 @@
 
 class CalculatingFunction:
     def solve(self, n):
-        res = 0
 
-        for i in range(1, n + 1):
-            if i % 2 == 0:
-                res += i
-            else:
-                res -= i
-        return res
+        if n % 2 == 0:
+            return n // 2
+        else:
+            return -1 * (n + 1) // 2
 
 
 if __name__ == "__main__":
