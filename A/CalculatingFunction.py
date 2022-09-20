@@ -1,4 +1,5 @@
 """
+If n is even, then the answer i n/2, otherwise the answer is (n -1) /2
 """
 
 
