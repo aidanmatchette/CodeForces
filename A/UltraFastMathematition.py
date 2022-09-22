@@ -12,6 +12,7 @@ class UltraFast:
                 res += "1"
         return res
 
+
 if __name__ == "__main__":
     uf = UltraFast()
     num1 = list(input())
